@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>IGU Cracow 2014</title>
+		<meta name="description" content="Quantifying and visualising migration flows around the globe">
+		<meta name="author" content="Nikola Sander & Guy Abel">
+		
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/nikola.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );}
+		</script>
+		
+		<!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]-->
+
+	  <!-- D3 -->
+		<link href="d3/dist/app-v1.css" rel="stylesheet" media="all">
+		<!--[if lt IE 9]><script src=javascripts/html5shiv-printshiv.js></script><![endif]-->
+		<script src="d3/dist/app-v1.js"></script>
+	  
+	 <!-- Twitter colour theme -->
+		<meta name="twitter:widgets:link-color" content="#FF7F00">
+		<meta name="twitter:widgets:theme" content="dark">
+	
+	</head>
+	<body>
+	<div class="reveal">
+		<div class="slides">
+
+		<!-- SLIDES -->		
+
+			<section>
+				<h2>Quantifying and visualising<br> migration flows around the globe</h2>
+				<h3>Nikola Sander and Guy Abel</h3>
+				<h4>Wittgenstein Centre, Vienna Institute of Demography</h4>
+				<br>
+				<h4>IGU Regional Conference, Cracow, August 2014</h4>
+				<h4>Slides: <a href="http://www.nikolasander.com/igu2014" target="_blank">nikolasander.com/igu2014</a></h4>
+			</section>
+
+			<section data-background="images/boat_italian_navy.jpeg">				
+				<h2 style="background-color: rgba(0, 0, 0, 0.5)">Global migration has accelerated and diversified</h2>
+			</section>
+			
+			<section>
+				<h2>Limited empirical testing</h2>
+				<p>Largely due to a lack of data.</p>
+				<p>Problem: countries measure migration flows in different ways.</p>
+				<p>Harmonisation only for Europe, e.g. IMEM</p>
+			</section>			
+			
+			<section>
+				<h2>Data on migrant stocks</h2>
+				<p>Widely captured in population censuses.</p>
+				<p>Country of birth != country of current residence.</p>
+				<p>UNPD released global bilateral dataset in 2013.</p>
+				<p>Accumulative measure that cannot capture recent trends.</p>
+			</section>					
+	
+			<section data-background="images/train_people_abcnetau.jpg">				
+				<h2 style="background-color: rgba(0, 0, 0, 0.4)">How many people migrated in the world in 2005-10?</h2>
+			</section>
+			
+			<section>
+				<h2>Quantifying Global International Migration Flows</h2>
+				<p>Guy Abel & Nikola Sander.<br>In <i>Science</i>; 28 March 2014; vol 343: 1520-1522.</p> 
+				<br>
+				<img src="images/science.png"  width="300">
+			</section>			
+			
+			<section>
+				<h2>Estimating flows from stocks</h2>
+				<table><tr>
+				<td>
+				<h3 style="text-decoration: underline">UN stock data</h3>
+				<p>lifetime transitions</p>
+				<p>static snapshot of <br>immigrant population</p>
+				<p>1990, 2000, 2010</p>
+				<p>~220 countries</p></td>
+				<td><h2>&#10140; </h2></td>
+				<td style="padding-left:1.5em">
+				<h3 style="text-decoration: underline">Our flow estimates</h3>
+				<p>5-year transitions</p>
+				<p>dynamic movements<br> over time</p>
+				<p>1990-95 to 2005-10</p>
+				<p>196 countries</p></td>
+				</tr></table>
+			</section>	
+
+			<section>
+				<h2>Hypothetical migrant stocks in 2000</h2>
+				<img src="images/Table_2000.png"  width="650">
+			</section>			
+			
+			<section>
+				<h2>Hypothetical migrant stocks in 2000 & 2010</h2>
+				<img src="images/Table_2000_2010.png"  width="1200">
+			</section>	
+
+			<section>
+				<h2>Hypothetical migrant stocks in 2000 & 2010</h2>
+				<img src="images/Table_2000_2010_2.png"  width="1200">
+			</section>
+	
+			<section>
+				<h2>From stocks to flows</h2>
+				<img src="images/Table_birthplace_A.png"  width="650">
+			</section>
+
+			<section>
+				<h2>From stocks to flows</h2>
+				<img src="images/Table_birthplace_all.png"  width="1200">
+			</section>
+	
+			<section>
+				<h2>Estimated flow matrix</h2>
+				<img src="images/Table_result.png"  width="650">
+			</section>
+			
+			<section>
+				<h2>No rising tide of migration</h2>
+				<p>About 0.6 % of world population have moved over 5-year periods since 1995.</p>
+				<img src="images/global-intensity.png"  width="700">
+			</section>
+			
+			<section>
+				<center>
+				<table><tr>
+				<td>
+				<h5 style="text-align:center"><font color="#FF3300">North America<img src="images/CMP_NorthAmerica.png" style="height:280px"></h5>
+				<h5 style="text-align:center"><font color="yellow">Latin America<img src="images/CMP_LatinAmerica.png" style="height:280px"></h5>
+				</td>
+				<td>
+				<h5 style="padding-left:0.5em;text-align:center"><font color="#00FF00">Europe<img src="images/CMP_Europe.png" style="height:280px"></h5>
+				<h5 style="padding-left:0.5em;text-align:center"><font color="#CC52CC">Fmr USSR</small><img src="images/CMP_Soviet.png" style="height:280px"></h5>
+				</td>
+				<td>
+				<h5 style="padding-left:0.5em;text-align:center"><font color="#0099FF">W & S Asia<img src="images/CMP_SouthAsia.png" style="height:280px"></h5>
+				<h5 style="padding-left:0.5em;text-align:center"><font color="#00FFFF">East & SE Asia<img src="images/CMP_EastAsia.png" style="height:280px"></h5>
+				</td>
+				<td>
+				<h5 style="padding-left:0.5em;text-align:center"><font color="#FFA347">Africa<img src="images/CMP_Africa.png" style="height:280px"></h5>
+				</td>
+				</tr></table></center>
+			</section>				
+			
+			<section>			
+				<img src="images/Table_big.png" width="1300">			
+			</section>
+				
+			<section>
+				<img src="images/minard_map.jpg" width="980">
+			</section>
+			
+			<section>	
+				<img src="images/flow_map.png" width="600">
+			</section>
+			
+			<section>
+				<img src="images/circos.png" width="700">				
+			</section>
+				
+			<section>
+				<img src="images/postcard_2005.png" width="680">
+			</section>
+
+			<!-- Interactive -->
+			<section style="width:800px">
+				<div>
+					<nav role=navigation>
+					<div id="timeline"></div>
+					</nav>
+
+					<div id="diagram"></div>
+				</div>
+				  <script>
+					(function() {
+					  var help = d3.select('#help');
+					  help.on('click', function() {
+						var isActive = help.classed('active');
+						help
+						  .classed('active', !isActive)
+						  .transition()
+						  .style('width', isActive ? '30px' : '572px');
+					  });
+					  function helpOffset() {
+						var offset = Math.max((document.body.clientWidth - document.getElementById('container').clientWidth) / 2, 0);
+						help.style('right', offset + 'px');
+					  }
+					  d3.select(window).on('resize.help-resize', helpOffset);
+					  helpOffset();
+					})();
+				  </script>
+				  <script>
+					(function() {
+					  var datafile = 'd3/json/migrations.json';
+					  var aLittleBit = Math.PI / 100000;
+					  d3.json(datafile, function(data) {
+						var now = 2005;
+						var chart = Globalmigration.chart(data, {
+						  element: '#diagram',
+						  now: now,
+						  animationDuration: 1400,
+						  margin: 125,
+						  arcPadding: 0.04,
+						  layout: {
+							threshold: 50000,
+							labelThreshold: 5000,
+							colors: 'cd3d08 ec8f00 6dae29 683f92 b60275 2058a5 00a592 009d3c 378974 ffca00'.split(' ').map(function(c) { return '#' + c; })
+						  }
+						});
+						Globalmigration.timeline(chart, {
+						  now: now,
+						  element: '#timeline'
+						});
+						chart.draw(now);
+					  });
+					})();
+				  </script>
+				  <script>
+					(function() {
+					  function loadScript(d,s,l,id){
+						var js,
+						fjs=d.getElementsByTagName(s)[0],
+						p=/^http:/.test(d.location)?'http':'https';
+						if(!id || !d.getElementById(id)){
+						  js=d.createElement(s);
+						  js.id=id;
+						  js.src=p+'://' + l;
+						  fjs.parentNode.insertBefore(js,fjs);
+						}
+					  }
+					})();
+				  </script>
+			</section>
+			
+			<section>
+				<p><a href="http://www.sciencemag.org/content/343/6178/1520" target="_blank"> Quantifying Global International Migration Flows.</a><br>Abel & Sander, 2014. In <i>Science</i>, Vol. 343, pp.1520-22.</p>
+				<br>
+				<p><a href="http://www.global-migration.info" target="_blank">"The Global Flow of People"</a><br>Interactive data visualisation</p>
+				<br>
+				<p><a href="http://www.circular-world.com" target="_blank">circular-world.com</a><br>A collection of our circular migration plots</p>
+				<br><br><br>
+				<p style="text-align:right">nikola.sander@oeaw.ac.at <br><a href="https://twitter.com/nikolasander" target="_blank">@nikolasander</a></p>
+			</section>
+
+			
+		<!-- END SLIDES -->		
+		</div>
+	</div>
+	
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: false,
+				center: true,
+				slideNumber: true,
+				keyboard: true,
+				overview: true,
+				touch: true,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+	</script>
+	</div>
+</body>
+</html>
